@@ -35,7 +35,7 @@
 - ✨Magic ✨
 
 ## Цель работы
-познакомиться с программными средствами для организции
+Познакомиться с программными средствами для организции
 передачи данных между инструментами google, Python и Unity.
 
 ## Задание 1
@@ -45,6 +45,7 @@
 
  В облачном сервисе google console подключить API для работы с google
 sheets и google drive.
+
 ![1](https://user-images.githubusercontent.com/103362219/195162668-9c4eb7dc-a0bb-4ed6-93a3-200db4b7404e.png)
 ![2](https://user-images.githubusercontent.com/103362219/195162681-04b40ed0-95a3-4670-91d9-c27e49e715ce.png)
 ![3](https://user-images.githubusercontent.com/103362219/195162711-538c5723-ddf7-4849-b7e7-d7d58c9a1293.png)
@@ -53,18 +54,24 @@ sheets и google drive.
 - Реализовать запись данных из скрипта на python в google-таблицу. Данные
 описывают изменение темпа инфляции на протяжении 11 отсчётных периодов, с
 учётом стоимости игрового объекта в каждый период.
+
 ![5](https://user-images.githubusercontent.com/103362219/195162815-6874ff64-1458-494a-afbf-591e791f52c3.png)
 ![6](https://user-images.githubusercontent.com/103362219/195162852-f40c2972-e1dc-4321-9d81-e28daf887b6c.png)
 
 - Создать новый проект на Unity, который будет получать данные из google-
 таблицы, в которую были записаны данные в предыдущем пункте.
+
 ![7](https://user-images.githubusercontent.com/103362219/195162898-d30f18e5-17d1-4afa-9ead-55e78ccf36fe.png)
 ![9](https://user-images.githubusercontent.com/103362219/195163013-8882c2f0-b7b7-4674-92f7-5e75259b847d.png)
 
--Написать функционал на Unity, в котором будет воспризводиться аудио-
+- Написать функционал на Unity, в котором будет воспризводиться аудио-
 файл в зависимости от значения данных из таблицы.
+
 ![8](https://user-images.githubusercontent.com/103362219/195162988-799fb8c1-03aa-4f61-aa61-96d922230454.png)
 ![10](https://user-images.githubusercontent.com/103362219/195163046-cd7bfdfb-bcca-4581-b96a-074a833c09da.png)
+
+Задание 2 Реализовать запись в Google-таблицу набора данных, полученных
+с помощью линейной регрессии из лабораторной работы № 1.
 
 ## Выводы
 
