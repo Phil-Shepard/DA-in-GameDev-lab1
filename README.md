@@ -141,6 +141,52 @@ while i <= len(mon):
 Задание 3. Самостоятельно разработать сценарий воспроизведения звукового
 сопровождения в Unity в зависимости от изменения считанных данных в задании 2.
 
+Поменял значения + в инумераторе поменял индекс
+
+```py
+void Update()
+    {
+        if (dataSet.Count == 0 || dataSet.Count <= i)
+        {
+            return;
+        }
+
+        if (dataSet["Mon_" + i.ToString()] <= 300 & statusStart == false & 1 != dataSet.Count)
+        {
+            StartCoroutine(PlaySelectAudioGood());
+            Debug.Log(dataSet["Mon_" + i.ToString()]);
+        }
+
+        if (dataSet["Mon_" + i.ToString()] > 300 & dataSet["Mon_" + i.ToString()] < 2000 & statusStart == false & 1 != dataSet.Count)
+        {
+            StartCoroutine(PlaySelectAudioNormal());
+            Debug.Log(dataSet["Mon_" + i.ToString()]);
+        }
+
+        if (dataSet["Mon_" + i.ToString()] >= 2000 & statusStart == false & 1 != dataSet.Count)
+        {
+            StartCoroutine(PlaySelectAudioBad());
+            Debug.Log(dataSet["Mon_" + i.ToString()]);
+        }
+    }
+
+    IEnumerator GoogleSheets()
+    {
+        UnityWebRequest curentResp = UnityWebRequest.Get("https://sheets.googleapis.com/v4/spreadsheets/1LDnPyXaw05hTaRFvyQBFkONYLwtXJekyl-OzIOrYkdE/values/Лист1?key=AIzaSyDaCFe6mtKBhf9fSBc-1z8eaYQhT785igE");
+        yield return curentResp.SendWebRequest();
+        string rawResp = curentResp.downloadHandler.text;
+        var rawJson = JSON.Parse(rawResp);
+        foreach (var itemRawJson in rawJson["values"])
+        {
+            var parseJson = JSON.Parse(itemRawJson.ToString());
+            var selectRow = parseJson[0].AsStringList;
+            dataSet.Add(("Mon_" + selectRow[0]), float.Parse(selectRow[1]));
+        }
+        Debug.Log(dataSet["Mon_1"]);
+    }
+```
+![End](https://user-images.githubusercontent.com/103362219/195169883-f0502e32-f2c5-4e2e-81b3-730794a778df.png)
+
 
 ## Выводы
 В ходе проделанной работы я поработал на нескольких языках программирования, поработал на Unity со звуком, ещё понравились фразы из Stronghold Crusader!
