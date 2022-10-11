@@ -70,12 +70,80 @@ sheets и google drive.
 ![8](https://user-images.githubusercontent.com/103362219/195162988-799fb8c1-03aa-4f61-aa61-96d922230454.png)
 ![10](https://user-images.githubusercontent.com/103362219/195163046-cd7bfdfb-bcca-4581-b96a-074a833c09da.png)
 
-Задание 2 Реализовать запись в Google-таблицу набора данных, полученных
+Задание 2. Реализовать запись в Google-таблицу набора данных, полученных
 с помощью линейной регрессии из лабораторной работы № 1.
 
-## Выводы
+```py
+import numpy as np
+import gspread
 
-В ходе проделанной работы я ознакомился с основными операторами зыка Python на примере реализации линейной регрессии, получил опыт работы с анализом данных, а также поработал в таких средах разработки, как: PyCharm, Anaconda и Unity. В целом, я усвоил для себя много нового и интересного.
+
+def model(a, b, x):
+    return a*x+b
+
+def loss_function(a, b, x, y):
+    num = len(x)
+    prediction = model(a, b, x)
+    return (0.5/num) * (np.square(prediction - y)).sum()
+
+
+def optimize(a, b, x, y):
+    num = len(x)
+    prediction = model(a, b, x)
+    da = (1.0/num) * ((prediction - y)*x).sum()
+    db = (1.0/num) * ((prediction - y).sum())
+    a -= Lr*da
+    b -= Lr*db
+    return a, b
+
+
+def iterate(a, b, x, y, times):
+    for i in range(times):
+        a, b = optimize(a, b, x, y)
+    return a, b
+
+a = np.random.rand(1)
+print(a)
+b = np.random.rand(1)
+print(b)
+Lr = 0.000001
+
+x = np.array([3, 21, 22, 34, 54, 34, 55, 67, 89, 99])
+y = np.array([2, 22, 24, 65, 79, 82, 55, 130, 150, 199])
+
+a, b = iterate(a, b, x, y, 100)
+prediction = model(a, b, x)
+loss = loss_function(a, b, x, y)
+print(a, b, loss)
+
+gc = gspread.service_account(filename='unitydatasciense-a4fb1bf44394.json')
+sh = gc.open("UnitySheets")
+price = np.random.randint(2000, 10000, 11)
+mon = list(range(1, 11))
+i = 0
+while i <= len(mon):
+    i += 1
+    if i == 0:
+        continue
+    else:
+        a, b = iterate(a, b, x, y, 100)
+        prediction = model(a, b, x)
+        loss = loss_function(a, b, x, y)
+        tempInf = str(loss)
+        tempInf = tempInf.replace('.', ',')
+        sh.sheet1.update(('A' + str(i)), str(i))
+        sh.sheet1.update(('B' + str(i)), str(tempInf))
+        print(tempInf)
+```
+
+![123](https://user-images.githubusercontent.com/103362219/195166193-f79fd832-fa7b-418c-bde9-70b85b2ad304.png)
+
+Задание 3. Самостоятельно разработать сценарий воспроизведения звукового
+сопровождения в Unity в зависимости от изменения считанных данных в задании 2.
+
+
+## Выводы
+В ходе проделанной работы я поработал на нескольких языках программирования, поработал на Unity со звуком, ещё понравились фразы из Stronghold Crusader!
 
 | Plugin | README |
 | ------ | ------ |
