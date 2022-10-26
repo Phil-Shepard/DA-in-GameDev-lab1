@@ -67,7 +67,7 @@ o torch 1.7.1;
 
 - Создал на сцене куб, сферу и пллоскость, потом я создал C# скрипт и подключил его к сфере. Добавил сфере компоненты Rigidbody, Decision Requester, Behavior Parameters и настроил их.
 C# скрипт:
-```py
+``c#
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
