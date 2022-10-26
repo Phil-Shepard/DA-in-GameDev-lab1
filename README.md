@@ -137,15 +137,16 @@ public class RollerAgent : Agent
 - Вернулся в проект Unity, запустил сцену, проверил работу ML-Agent’a.
 - Сделал 3 копии модели «Плоскость-Сфера-Куб», запустил симуляцию сцены и наблюдал за обучением модели.
 
-
 ![image](https://user-images.githubusercontent.com/103362219/198061363-3ac00231-2e27-41cc-8b50-a36aa505d37d.png)
 
 - Сделал 9 копий модели «Плоскость-Сфера-Куб», запустил симуляцию сцены и наблюдал за обучением модели.
-- 
+
+![image](https://user-images.githubusercontent.com/103362219/198065700-475107cb-b018-48db-8f94-370ba373ce72.png)
+
 ![image](https://user-images.githubusercontent.com/103362219/198063056-c0d9e9e8-8a44-4696-9993-ab567b1361b1.png)
 
 - Сделал 27 копий модели «Плоскость-Сфера-Куб», запустил симуляцию сцены и наблюдал за обучением модели.
-- 
+ 
 ![image](https://user-images.githubusercontent.com/103362219/198064819-aaf578c5-e7c2-4f46-918b-fc78494e202f.png)
 
 
