@@ -59,6 +59,7 @@ o torch 1.7.1;
 ![image](https://user-images.githubusercontent.com/103362219/198039669-9a15e86c-b656-4ab7-92f3-dd728f1ea70f.png)
 ![image](https://user-images.githubusercontent.com/103362219/198039830-1224fa23-0f23-4875-bec4-67ede56501cf.png)
 ![image](https://user-images.githubusercontent.com/103362219/198040110-6729184d-232a-4d00-9b8c-1f8c9dc8cc6e.png)
+![Снимок](https://user-images.githubusercontent.com/103362219/198043420-09afc11e-4396-4c1d-83bf-bbe3e7abe744.JPG)
 
 
 ## Задание 2. В разделе "ход работы" пошагово выполнить каждый пункт с описанием и примером реализации задачи по теме лабораторной работы.
