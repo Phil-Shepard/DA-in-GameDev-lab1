@@ -40,6 +40,7 @@
 ## Задание 1
 ### Реализовать систему машинного обучения в связке Python - Google-Sheets – Unity.
 - Создайте новый пустой 3D проект на Unity.
+![1](https://user-images.githubusercontent.com/103362219/198036078-d7bc4fa1-4166-43f3-bc49-2066cbd69eb2.png)
 
 - Скачайте папку с ML агентом. 
 
