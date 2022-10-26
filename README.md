@@ -39,13 +39,15 @@
 
 ## Задание 1
 ### Реализовать систему машинного обучения в связке Python - Google-Sheets – Unity.
-- Создайте новый пустой 3D проект на Unity.
+- Создал новый пустой 3D проект на Unity.
 ![1](https://user-images.githubusercontent.com/103362219/198036078-d7bc4fa1-4166-43f3-bc49-2066cbd69eb2.png)
 
-- Скачайте папку с ML агентом. 
+- Скачал папку с ML агентом. 
+![2](https://user-images.githubusercontent.com/103362219/198037649-26ff0001-5c40-4250-9501-acd0ba0a22ef.png)
 
-- В созданный проект добавьте ML Agent, выбрав Window - Package
-Manager - Add Package from disk. Последовательно добавьте .json –
+
+- В созданный проект добавил ML Agent, выбрав Window - Package
+Manager - Add Package from disk. Последовательно добавил .json –
 файлы:
 o ml-agents-release_19 / com,unity.ml-agents / package.json
 o ml-agents-release_19 / com,unity.ml-agents.extensions / package.json
