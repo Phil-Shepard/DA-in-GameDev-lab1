@@ -129,6 +129,9 @@ public class RollerAgent : Agent
 
 ![Снимок экрана (87)](https://user-images.githubusercontent.com/103362219/198045770-564b5632-55cf-4af2-9a41-a6b2b406ecd9.png)
 
+- В корень проекта добавил файл конфигурации rollerball_config.yaml
+код rollerball_config.yaml:
+![image](https://user-images.githubusercontent.com/103362219/198048230-fcab8c91-d4ec-4dd8-b3d4-77263ab8c93b.png)
 
 ## Задание 2. В разделе "ход работы" пошагово выполнить каждый пункт с описанием и примером реализации задачи по теме лабораторной работы.
 Ход работы:
