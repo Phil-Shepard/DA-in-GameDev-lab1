@@ -125,7 +125,7 @@ public class RollerAgent : Agent
     }
 }
 
-```py
+```
 
 ![Снимок экрана (87)](https://user-images.githubusercontent.com/103362219/198045770-564b5632-55cf-4af2-9a41-a6b2b406ecd9.png)
 
