@@ -54,7 +54,6 @@ o ml-agents-release_19 / com,unity.ml-agents.extensions / package.json
 ![3](https://user-images.githubusercontent.com/103362219/198038456-d018bcb2-1b18-443f-a9f6-1f5307d6b013.png)
 
 - Запустил Anaconda Prompt для создания виртуальной среды и активации нового ML-агента, также скачал необходимые библиотеки:
-
 o mlagents 0.28.0;
 o torch 1.7.1;
 
