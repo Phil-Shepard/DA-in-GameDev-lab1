@@ -218,6 +218,14 @@ public class RollerAgent : Agent
 
 Ссылка на документацию ml-агента - https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Training-Configuration-File.md 
 
+## Задание 3
+### Доработать сцену и обучить ML-Agent таким образом, чтобы шар перемещался между двумя кубами разного цвета.
+
+![image](https://user-images.githubusercontent.com/103362219/198078401-8d936499-d93c-41df-9424-38029fbfd2a4.png)
+
+![image](https://user-images.githubusercontent.com/103362219/198078747-72f8b555-263a-45a9-ab3a-037a66c87a8e.png)
+
+
 ## Выводы
 
 В ходе проделанной работы я ознакомился с основными операторами зыка Python на примере реализации линейной регрессии, получил опыт работы с анализом данных, а также поработал в таких средах разработки, как: PyCharm, Anaconda и Unity. В целом, я усвоил для себя много нового и интересного.
