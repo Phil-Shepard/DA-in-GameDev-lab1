@@ -35,7 +35,17 @@
 - ✨Magic ✨
 
 ## Цель работы
-Ознакомиться с основными операторами зыка Python на примере реализации линейной регрессии.
+Освоить применение направления науки о данных в играх и интерактивных приложениях.
+
+- Я выполнил все методические указания для запуска ML-агента.
+
+![4](https://user-images.githubusercontent.com/103362219/205246237-be60a6f3-a3a0-4404-9969-d855cab5619e.png)
+
+![1](https://user-images.githubusercontent.com/103362219/205246318-3bca0ee2-988d-472e-af57-8b3b54c5a4d4.JPG)
+
+![3](https://user-images.githubusercontent.com/103362219/205246342-b65b819d-35c9-435d-ae14-afe0c453ba8f.png)
+
+![2](https://user-images.githubusercontent.com/103362219/205246365-4c9a7e22-6609-4196-bd4c-8e20aff484d7.JPG)
 
 ## Задание 1
 ### 
