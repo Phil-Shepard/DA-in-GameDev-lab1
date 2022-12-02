@@ -50,8 +50,6 @@
 
 ### Ход работы:
 
-- Параметры "checkpoint_interval", "strength", "max_steps" и "gamma" заметно меняют исход обучения модели.
-
 ![7](https://user-images.githubusercontent.com/103362219/205248509-845109da-d24d-465f-8669-591315d2aaa0.JPG)
 
 ![6](https://user-images.githubusercontent.com/103362219/205248518-a0ed2ff6-dd4d-4d70-baa9-dbc06f318cd1.JPG)
@@ -62,7 +60,7 @@
 
 ![9](https://user-images.githubusercontent.com/103362219/205248557-a3929827-981f-47c0-bfba-16646b84245a.JPG)
 
-### Из приведённых графиков можно сделать вывод, что наибольшее влияние на обучение модели оказывает параметр "strength".
+### Из приведённых графиков можно сделать вывод, что параметры "checkpoint_interval", "strength", "max_steps" и "gamma" заметно меняют исход обучения модели. Наибольшее влияние на обучение модели оказывает параметр "strength".
 
 ## Задание 2. Описать результаты, выведенные в TensorBoard.
 
